@@ -5,3 +5,4 @@
 - Make Transformation on data & use also spark.sql
   the transformation you make on batch data, also the same on stream data
 - Writing output data with different modes: append, complete, and update
+- Read and process data in AWS S3 buckets from Spark Databricks
