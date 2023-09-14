@@ -7,3 +7,9 @@
 - Writing output data with different modes: append, complete, and update
 - Read and process data in AWS S3 buckets from Spark Databricks
 - Use checkpoint while writing data to save intermediate results from failure
+
+  ## Conclusion
+  in Streaming Data Spark 2.X:
+  - Every data item is arriving on stream is like new record being append to the input table
+    Data stream are unbounded in input table
+  - All operations can be performed in dataframe can also done in streaming data
